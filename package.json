@@ -1,0 +1,35 @@
+{
+  "name": "alta-cliente-tests",
+  "version": "1.0.0",
+  "description": "Colección de pruebas para el flujo de alta de cliente en banca digital",
+  "scripts": {
+    "test": "npx newman run coleccion-postman/alta-cliente.postman_collection.json --bail",
+    "test:report": "npx newman run coleccion-postman/alta-cliente.postman_collection.json -r cli,junit --reporter-junit-export report.xml",
+    "test:karate": "karate.jar src/test/java/karate-config.js",
+    "test:cucumber": "cucumber-js casos/**/*.feature"
+  },
+  "dependencies": {
+    "newman": "^6.1.2",
+    "karate-js": "^1.4.0",
+    "cucumber": "^10.2.1"
+  },
+  "devDependencies": {
+    "postman-to-karate": "^1.0.0",
+    "newman-reporter-junit": "^1.2.3"
+  },
+  "keywords": [
+    "banca-digital",
+    "alta-cliente",
+    "pruebas",
+    "postman",
+    "newman",
+    "gherkin",
+    "cucumber",
+    "karate"
+  ],
+  "author": "Equipo de Calidad de Software",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

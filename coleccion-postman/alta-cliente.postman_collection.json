@@ -1,0 +1,97 @@
+{
+  "info": {
+    "name": "Alta de Cliente",
+    "_postman_id": "12345678-1234-1234-1234-1234567890ab",
+    "description": "Colección Postman para validar el flujo de alta de cliente en banca digital",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Crear Cliente",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Nombre\":\"Juan\",\"Apellido\":\"Perez\",\"FechaNacimiento\":\"1990-01-01\",\"Email\":\"juan.perez@example.com\",\"Direccion\":\"123 Main St\",\"Ciudad\":\"Anytown\",\"Estado\":\"Anystate\",\"Pais\":\"USA\",\"CodigoPostal\":\"12345\",\"NumeroTelefono\":\"1234567890\",\"TipoDocumento\":\"Pasaporte\",\"NumeroDocumento\":\"ABC123\",\"EstadoCivil\":\"Soltero\",\"Ocupacion\":\"Ingeniero\",\"IngresosMensuales\":5000,\"OrigenSolicitud\":\"Web\",\"Canal\":\"Online\",\"FechaSolicitud\":\"2024-07-01\",\"CodigoOperacion\":\"OP123456789\"}"
+        },
+        "url": {
+          "raw": "https://api.bancadigital.com/clientes",
+          "protocol": "https",
+          "host": [
+            "api",
+            "bancadigital",
+            "com"
+          ],
+          "path": [
+            "clientes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Verificar Idempotencia",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Nombre\":\"Juan\",\"Apellido\":\"Perez\",\"FechaNacimiento\":\"1990-01-01\",\"Email\":\"juan.perez@example.com\",\"Direccion\":\"123 Main St\",\"Ciudad\":\"Anytown\",\"Estado\":\"Anystate\",\"Pais\":\"USA\",\"CodigoPostal\":\"12345\",\"NumeroTelefono\":\"1234567890\",\"TipoDocumento\":\"Pasaporte\",\"NumeroDocumento\":\"ABC123\",\"EstadoCivil\":\"Soltero\",\"Ocupacion\":\"Ingeniero\",\"IngresosMensuales\":5000,\"OrigenSolicitud\":\"Web\",\"Canal\":\"Online\",\"FechaSolicitud\":\"2024-07-01\",\"CodigoOperacion\":\"OP123456789\"}"
+        },
+        "url": {
+          "raw": "https://api.bancadigital.com/clientes",
+          "protocol": "https",
+          "host": [
+            "api",
+            "bancadigital",
+            "com"
+          ],
+          "path": [
+            "clientes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Manejo de Errores",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Nombre\":\"Juan\",\"Apellido\":\"Perez\",\"FechaNacimiento\":\"1990-01-01\",\"Email\":\"juan.perez@example.com\",\"Direccion\":\"123 Main St\",\"Ciudad\":\"Anytown\",\"Estado\":\"Anystate\",\"Pais\":\"USA\",\"CodigoPostal\":\"12345\",\"NumeroTelefono\":\"1234567890\",\"TipoDocumento\":\"Pasaporte\",\"NumeroDocumento\":\"ABC123\",\"EstadoCivil\":\"Soltero\",\"Ocupacion\":\"Ingeniero\",\"IngresosMensuales\":5000,\"OrigenSolicitud\":\"Web\",\"Canal\":\"Online\",\"FechaSolicitud\":\"2024-07-01\",\"CodigoOperacion\":\"OP123456789\"}"
+        },
+        "url": {
+          "raw": "https://api.bancadigital.com/clientes",
+          "protocol": "https",
+          "host": [
+            "api",
+            "bancadigital",
+            "com"
+          ],
+          "path": [
+            "clientes"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+ID,Nombre,Apellido,FechaNacimiento,Email,Direccion,Ciudad,Estado,Pais,CodigoPostal,NumeroTelefono,TipoDocumento,NumeroDocumento,EstadoCivil,Ocupacion,IngresosMensuales,OrigenSolicitud,Canal,FechaSolicitud,CodigoOperacion
+1,Juan,Perez,1990-01-01,juan.perez@example.com,123 Main St,Anytown,Anystate,USA,12345,1234567890,Pasaporte,ABC123,Soltero,Ingeniero,5000,Web,Online,2024-07-01,OP123456789
+2,Maria,Gonzalez,1985-05-15,maria.gonzalez@example.com,456 Elm St,Othertown,Otherstate,USA,67890,9876543210,DNI,XYZ789,Casado,Medico,7000,App,Mobile,2024-07-01,OP987654321
+3,Carlos,Lopez,1978-12-31,carlos.lopez@example.com,789 Oak St,Thistown,Thisstate,USA,54321,5555555555,Pasaporte,DEF456,Divorciado,Abogado,6000,Web,Online,2024-07-01,OP111222333
+4,Laura,Martinez,1992-07-20,laura.martinez@example.com,321 Pine St,Thattown,Thatstate,USA,98765,1111111111,DNI,GHI789,Viudo,Profesor,4500,App,Mobile,2024-07-01,OP444555666
+5,Pedro,Sanchez,1980-03-10,pedro.sanchez@example.com,654 Maple St,Sometown,Somestate,USA,13579,2222222222,Pasaporte,JKL012,Soltero,Arquitecto,8000,Web,Online,2024-07-01,OP777888999
+6,Ana,Rodriguez,1987-11-25,ana.rodriguez@example.com,987 Cedar St,Anothertown,Anotherstate,USA,24680,3333333333,DNI,MNO345,Casado,Chef,5500,App,Mobile,2024-07-01,OP000111222
+7,Jorge,Hernandez,1975-09-05,jorge.hernandez@example.com,246 Birch St,Newtown,Newstate,USA,86420,4444444444,Pasaporte,PQR678,Divorciado,Diseñador,7500,Web,Online,2024-07-01,OP333444555
+8,Sofía,Diaz,1995-04-12,sofia.diaz@example.com,135 Walnut St,Oldtown,Oldstate,USA,97531,5555555555,DNI,STU901,Viudo,Ingeniero,6000,App,Mobile,2024-07-01,OP666777888
+9,Miguel,Ruiz,1983-02-28,miguel.ruiz@example.com,852 Cherry St,Freshtown,Freshstate,USA,15935,6666666666,Pasaporte,VWX234,Soltero,Piloto,9000,Web,Online,2024-07-01,OP999000111
+10,Cristina,Flores,1991-08-18,cristina.flores@example.com,369 Spruce St,Newertown,Newerstate,USA,75315,7777777777,DNI,YZA567,Casado,Artista,4000,App,Mobile,2024-07-01,OP222333444

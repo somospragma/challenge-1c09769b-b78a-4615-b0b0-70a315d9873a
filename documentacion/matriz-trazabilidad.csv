@@ -1,0 +1,6 @@
+Requisito,Caso de Prueba,Evidencia
+REG-001: Validación de datos,CP-001: Datos incompletos,E-001: Mensaje de error
+REG-002: Detección de fraude,CP-002: Fraude detectado,E-002: Alerta de fraude
+REG-003: Comunicación con servicios externos,CP-003: Fallo en servicio externo,E-003: Log de error
+REG-004: Procesamiento de pagos,CP-004: Error en pago,E-004: Mensaje de pago fallido
+REG-005: Consistencia de datos,CP-005: Datos inconsistentes,E-005: Reporte de inconsistencia
